@@ -6,9 +6,9 @@ const timerElement = document.getElementById('timer');
 const quizData = [
   // Add your quiz questions here as objects
   {
-    question: 'What is 2 + 2?',
-    answers: ['4', '3', '5', '2'],
-    correctAnswer: '4'
+    question: 'What is a string',
+    answers: ['a sequence of characters', 'a boolean', 'a sum of numbers', 'an image'],
+    correctAnswer: '1'
   },
   // Add more questions similarly
 ];
