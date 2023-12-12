@@ -1,0 +1,32 @@
+/* Add styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .quiz-container {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .quiz-footer {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .answers button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+  }
