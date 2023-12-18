@@ -30,7 +30,7 @@ continue_btn.onclick = ()=>{
     startTimerLine(0); //calling startTimerLine function
 }
 
-let timeValue =  15;
+let timeValue =  60;
 let que_count = 0;
 let que_numb = 1;
 let userScore = 0;
@@ -45,7 +45,7 @@ const quit_quiz = result_box.querySelector(".buttons .quit");
 restart_quiz.onclick = ()=>{
     quiz_box.classList.add("activeQuiz"); //show quiz box
     result_box.classList.remove("activeResult"); //hide result box
-    timeValue = 15; 
+    timeValue = 60; 
     que_count = 0;
     que_numb = 1;
     userScore = 0;
@@ -60,7 +60,7 @@ restart_quiz.onclick = ()=>{
     next_btn.classList.remove("show"); //hide the next button
 }
 
-// if quitQuiz button clicked
+// if Quit Quiz button clicked
 quit_quiz.onclick = ()=>{
     window.location.reload(); //reload the current window
 }
@@ -68,7 +68,7 @@ quit_quiz.onclick = ()=>{
 const next_btn = document.querySelector("footer .next_btn");
 const bottom_ques_counter = document.querySelector("footer .total_que");
 
-// if Next Que button clicked
+// if Next button clicked
 next_btn.onclick = ()=>{
     if(que_count < questions.length - 1){ //if question count is less than total question length
         que_count++; //increment the que_count value

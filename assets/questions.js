@@ -1,4 +1,5 @@
-// creating an array and passing the number, questions, options, and answers
+// quiz questions
+
 let questions = [
     {
     numb: 1,
